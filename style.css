@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif,'微軟正黑體' ;
+}
+.header{
+    width: 15%;
+    height: 100vh;
+    background: #ffbc2e;
+}
+.top{
+    padding-left: 10%;
+    padding-top: 30%;
+    color: white;
+    font-weight: 600;
+    font-size: 68px;
+}
+.bottom{
+    position: absolute;
+    bottom: 10%;
+    padding-left: 2%;
+    font-size: 26px;
+}
+.line{
+    height: 55vh;
+    border-left:white solid 8px;
+    margin-top: 50%;
+    margin-left: 20%;
+}
+
+.type{
+    padding-top: 20%;
+}
