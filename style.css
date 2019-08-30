@@ -44,7 +44,6 @@ body{
     color: white;
     font-size: 20px;
     width: 35%;
-    border: black solid;
     margin: 0px auto;
     position: absolute;
     top: 30%;
@@ -78,6 +77,7 @@ body{
     background: none;
     padding: 2%;
     color: white;
+    font-size: 18px;
 }
 .say{
     border-bottom: #ffbc2e solid 1px;
@@ -88,6 +88,7 @@ body{
     padding: 1.5%;
     width: 50%;
     color: white;
+    font-size: 18px;
 }
 .start{
     background: #ffbc2e;
@@ -96,4 +97,78 @@ body{
     width: 30%;
     text-align: center;
     font-weight: bold;
+}
+.start:hover{
+    background: #ffbc2e;
+    float: right;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+/* index2 */
+.content2{
+    position: absolute;
+    top: 0%;
+    display: inline-block;
+    background: #262d5a;
+    width: 85%;
+    height: 100vh;
+}
+.hot{
+    display: inline-block; 
+    color:white;
+    padding: 4%;
+    font-size: 36px;
+    font-weight:bold; 
+}
+.add_new{
+    display: inline-block; 
+    color:white;
+    padding: 4%;
+    font-size: 20px;
+    /* font-weight:bold;  */
+}
+.row{
+    margin: 0 auto;
+    color: white;
+    padding-left: 4%;
+    margin-bottom: 2%;
+}
+.class{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 1%;
+}
+.block{
+    display: inline-block;
+    width: 25vh;
+    height: 20vh;
+    background: #ffbc2e;
+    margin-right: 3%;
+}
+.group_name{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 32%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 24px;
+}
+.group_name:hover{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 32%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+.counts{
+    padding-top: 25%;
+    padding-right: 5%;
+    float: right;
 }
