@@ -2,14 +2,15 @@ body{
     font-family: sans-serif,'微軟正黑體' ;
 }
 .header{
+    display: inline-block;
     width: 15%;
     height: 100vh;
     background: #ffbc2e;
+    color: white;
 }
 .top{
     padding-left: 10%;
     padding-top: 30%;
-    color: white;
     font-weight: 600;
     font-size: 68px;
 }
@@ -28,4 +29,59 @@ body{
 
 .type{
     padding-top: 20%;
+    font-weight: 600;
+}
+.type:hover{
+    padding-top: 20%;
+    color: black;
+}
+.content{
+    display: inline-block;
+    width: 75%;
+}
+.box{
+    background: #262d5a;
+    color: white;
+    font-size: 20px;
+    width: 35%;
+    border: black solid;
+    margin: 0px auto;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    padding: 2%;
+    line-height: 28px;
+}
+.name{
+    display: inline-block;
+    border: #ffbc2e solid 1px;
+    padding: 1.5%;
+    padding-left:3%;
+    padding-right:3%;
+    margin-right: 3%;
+}
+.title{
+    padding-bottom: 4%; 
+}
+.food{
+    border: #ffbc2e solid 1px;
+    background: none;
+    padding: 2%;
+}
+.say{
+    border-bottom: #ffbc2e solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: none;
+    padding: 1.5%;
+    width: 50%;
+}
+.start{
+    background: #ffbc2e;
+    float: right;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
 }
